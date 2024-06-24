@@ -1,0 +1,30 @@
+.color1 { color: #00ccff; }
+.color2 { color: #4B9BFE; }
+.color3 { color: #558CFD; }
+.color4 { color: #5F7CFD; }
+.color5 { color: #696CFC; }
+.color6 { color: #745DFB; }
+.color7 { color: #7E4DFA; }
+.color8 { color: #922EF9; }
+.color9 { color: #9C1EF8; }
+
+
+
+.gradient-button {
+    background: linear-gradient(to right, #4ABFFC, #4B9BFE, #558CFD, #5F7CFD, #696CFC, #745DFB, #7E4DFA, #922EF9, #9C1EF8); /* Gradient background */
+    color: white; /* White text */
+    border: none; /* Remove borders */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button appear inline */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Some margin */
+    cursor: pointer; /* Pointer/hand icon on hover */
+    border-radius: 8px; /* Rounded corners */
+    transition: background 0.3s; /* Smooth transition for hover effect */
+}
+
+.gradient-button:hover {
+    background: linear-gradient(to right, #9C1EF8, #922EF9, #7E4DFA, #745DFB, #696CFC, #5F7CFD, #558CFD, #4B9BFE, #4ABFFC); /* Reverse gradient on hover */
+}

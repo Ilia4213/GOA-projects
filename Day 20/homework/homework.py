@@ -1,10 +1,10 @@
 for i in range(1, 20):
-  print(i)     
+  print(i)
 
-count = 0  
+count = 0
 
 while count < 20:
   print('word')
   count += 1
-
+    
     
