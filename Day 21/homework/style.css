@@ -11,20 +11,22 @@
 
 
 .gradient-button {
-    background: linear-gradient(to right, #4ABFFC, #4B9BFE, #558CFD, #5F7CFD, #696CFC, #745DFB, #7E4DFA, #922EF9, #9C1EF8); /* Gradient background */
+    background: linear-gradient(to right, #4ABFFC, #4B9BFE, #558CFD, #5F7CFD, #696CFC, #745DFB, #7E4DFA, #922EF9, #9C1EF8, #922EF9, #7E4DFA, #745DFB, #696CFC, #5F7CFD, #558CFD, #4B9BFE, #4ABFFC); /* Initial gradient background */
     color: white; /* White text */
     border: none; /* Remove borders */
-    padding: 15px 32px; /* Some padding */
+    padding: 15px 32px; /* Padding */
     text-align: center; /* Centered text */
     text-decoration: none; /* Remove underline */
-    display: inline-block; /* Make the button appear inline */
-    font-size: 16px; /* Increase font size */
-    margin: 4px 2px; /* Some margin */
-    cursor: pointer; /* Pointer/hand icon on hover */
+    display: inline-block; /* Inline block */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin */
+    cursor: pointer; /* Pointer cursor */
     border-radius: 8px; /* Rounded corners */
-    transition: background 0.3s; /* Smooth transition for hover effect */
+    transition: background-position 0.3s ease; /* Smooth transition for background-position */
+    background-size: 200% 200%; /* Larger background size for gradient effect */
 }
 
 .gradient-button:hover {
-    background: linear-gradient(to right, #9C1EF8, #922EF9, #7E4DFA, #745DFB, #696CFC, #5F7CFD, #558CFD, #4B9BFE, #4ABFFC); /* Reverse gradient on hover */
+    background-position: right center; /* Move gradient to the right on hover */
+    
 }
