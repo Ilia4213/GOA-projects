@@ -1,6 +1,6 @@
 from random import *
 
-print('Here we will give you strong passwords.')
+print('Here we will generate you strong passwords.')
 
 pass_len = input('Please enter your password length, type "Close" to exit:')
 
