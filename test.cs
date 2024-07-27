@@ -1,4 +1,4 @@
-string variable = Console.ReadLine()
+string variable = Console.ReadLine();
 
 if (variable == "say")
 {
