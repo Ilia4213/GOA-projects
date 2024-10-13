@@ -1,0 +1,47 @@
+
+#button1{
+    background: linear-gradient(to right, #4ABFFC, #922EF9); 
+    color: rgb(255, 255, 255);
+    border-color: rgb(219, 219, 219);
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+#button2{
+    background: linear-gradient(to right, #fce14a, #2ef949); 
+    color: rgb(255, 255, 255);
+    border-color: rgb(219, 219, 219);
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+#button3{
+    background: linear-gradient(to right, #fc4a4a, #2ef2f9); 
+    color: rgb(255, 255, 255);
+    border-color: rgb(219, 219, 219);
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+#box1{
+    width: 150px;
+    height: 100px;
+    background-color: #922EF9;
+    text-align: center;
+}
+
+#box2{
+    width: 150px;
+    height: 100px;
+    background-color: #50f92e;
+    text-align: center;
+}
+
+#box3{
+    width: 150px;
+    height: 100px;
+    background-color: #2ecaf9;
+    text-align: center;
+}
+
+

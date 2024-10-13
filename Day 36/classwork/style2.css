@@ -1,0 +1,11 @@
+.parrent{
+    font-size: 500px;
+}
+
+.parrent div{
+    font-size: 25%;
+}
+
+.parrent div p{
+    font-size: 50%;
+}
