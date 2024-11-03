@@ -1,0 +1,14 @@
+.div{
+    width: 70%;
+    height: 100px;
+}
+
+.div div{
+    width: 50%;
+    height: 50%;
+    font-size: 100px;
+}
+
+.div div p{
+    font-size: 20%;
+}
