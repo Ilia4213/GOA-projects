@@ -1,0 +1,31 @@
+.a:link{
+    color: rgb(10, 10, 255);
+}
+
+.a:visited{
+    color: rgb(154, 2, 255);
+}
+
+.a:hover{
+    color: rgb(255, 255, 0);
+    background-color: rgb(255, 0, 0);
+}
+
+.a:active{
+    background-color: rgb(189, 0, 0);
+}
+
+#A{
+    background-color: black;
+}
+#A:hover{
+    background-color: rgb(71, 71, 71);
+}   
+
+.b{
+    text-decoration: none;
+}
+
+.b:hover{
+    text-decoration: underline;
+}

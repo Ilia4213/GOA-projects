@@ -1,0 +1,8 @@
+table{
+    border: 3px solid blue;
+    padding: 1px;
+} 
+
+tr:nth-child(even){
+    background-color: cyan;
+}

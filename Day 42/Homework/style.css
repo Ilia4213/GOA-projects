@@ -1,0 +1,12 @@
+table{
+    border: 3px dotted green;
+}
+
+td, th{
+    border: 3px solid green;
+    padding: 1px; 
+}
+
+tr:hover:nth-child(even){
+    background-color: rgb(159, 0, 190);
+}
