@@ -1,0 +1,19 @@
+.one{
+    list-style: square inside none;
+}
+
+.two{
+    list-style: disc inside none;
+}
+
+.three{
+    list-style: circle inside none;
+}
+
+.four{
+    list-style: none inside none;
+}
+
+.fice{
+    list-style: square inside none;
+}
